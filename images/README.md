@@ -2,6 +2,7 @@
 
 This folder contains visualizations generated during model development.
 
+
 ## Contents
 
 | File | Description |
@@ -13,8 +14,3 @@ This folder contains visualizations generated during model development.
 | `threshold_tradeoff.png` | Accuracy vs. recall across thresholds 0.30 – 0.60 |
 | `fairness_municipality.png` | Injury recall by municipality |
 | `fairness_light.png` | Injury recall by light condition |
-
-## How to Regenerate
-
-All plots are generated automatically when running `notebooks/My_Deployment.ipynb`.  
-SHAP plots require the trained model (`model.pkl`) and test set data to be in memory.
