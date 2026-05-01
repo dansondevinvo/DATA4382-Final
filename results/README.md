@@ -6,8 +6,8 @@
 
 |  | Predicted: No Injury | Predicted: Injury |
 |--|---------------------|------------------|
-| **Actual: No Injury** | 15,078 ✅ | 17,959 ⚠️ |
-| **Actual: Injury** | 671 ❌ | 6,522 ✅ |
+| **Actual: No Injury** | 15,078  | 17,959  |
+| **Actual: Injury** | 671  | 6,522 |
 
 ### Core Metrics
 
@@ -46,8 +46,8 @@
 |----------|-------------|--------|
 | Weather | 0.714 – 1.000 | WATCH |
 | Municipality | 0.792 – 0.936 | WATCH |
-| Day vs. Night | 0.874 – 0.911 | ✅ PASS |
-| Weekday vs. Weekend | 0.874 – 0.916 | ✅ PASS |
+| Day vs. Night | 0.874 – 0.911 |  PASS |
+| Weekday vs. Weekend | 0.874 – 0.916 | PASS |
 
 No group fell below 0.70 recall threshold.
 
